@@ -1,7 +1,7 @@
 import requests,ssl
 import streamlit as st
 
-url = "https://api.nasa.gov/planetary/apod?api_key=J2an4d9NunY4IyNkVA0rrGwSLh3G6Az0DWOlfX6a"
+url = "https://api.nasa.gov/planetary/apod?api_key="
 
 responce = requests.get(url)
 
